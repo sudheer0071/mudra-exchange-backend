@@ -1,0 +1,34 @@
+{
+  "name": "btc_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node babel_hook.js -r dotenv/config babel_hook.js dotenv_config_path=local.env",
+    "dev": "node babel_hook.js -r dotenv/config babel_hook.js dotenv_config_path=dev.env",
+    "prod": "node babel_hook.js -r dotenv/config babel_hook.js dotenv_config_path=prod.env"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.18.2",
+    "from-exponential": "^1.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mathjs": "^12.2.0",
+    "node-cron": "^3.0.2",
+    "redis": "^4.6.10",
+    "web3": "^3.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/plugin-transform-runtime": "^7.22.15",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/register": "^7.22.15",
+    "nodemon": "^3.0.1"
+  }
+}

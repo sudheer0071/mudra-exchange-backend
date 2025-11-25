@@ -1,0 +1,4 @@
+export const ADMIN_WALLET = {
+  ADDRESS: process.env.ADMIN_WALLET_ADDRESS,
+  PRIVATE_KEY: process.env.ADMIN_WALLET_PRIVATE_KEY
+}; 
