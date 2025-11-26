@@ -426,7 +426,7 @@ if (process.env.NODE_ENV === "production") {
 
     // live
     DATABASE_URL:
-      "mongodb://exchangeapidb:aT3PbGL1C9rG33K7T3VbBipGxX8A@127.0.0.1:27000/exchangeapidb", //live
+      "mongodb://@127.0.0.1:27017/exchangeapidb", //live
     PORT: PORT,
     FRONT_URL: "https://mudra.exchange",
     ADMIN_URL: "https://controls.mudra.exchange",
