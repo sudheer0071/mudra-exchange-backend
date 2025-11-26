@@ -279,12 +279,12 @@
 //     secretOrKey: "test",
 
 //     cryptoSecretKey: "1234567812345678",
-   
- 
+
+
 //     // DATABASE_URL: "mongodb://127.0.0.1:27017/exchangeLocaldb",
 //     DATABASE_URL: "mongodb://dbUser:dbPassword123@127.0.0.1:27000/exchangeLocaldb",
 //     // DATABASE_URL: "mongodb://exchangeapidb:aT3PbGL1C9rG33K7T3VbBipGxX8A@170.187.238.202:27000/exchangeapidb",
-   
+
 
 //     PORT: PORT,
 //     FRONT_URL: "http://localhost:3000",
@@ -313,7 +313,7 @@
 //         }
 //       }
 //     },
-    
+
 
 //     IMAGE: {
 //       DEFAULT_SIZE: 1 * 1024 * 1024, // 1 MB,
@@ -371,7 +371,7 @@
 //       },
 //     },
 
- 
+
 //     BINANCE_GATE_WAY: {
 //       API_KEY:
 //         "KrsF9HDc4NfArY0b7jurYVugWbfCatCnXOyx5bINDoPth4haWEB45BGceniTYIha",
@@ -426,7 +426,7 @@ if (process.env.NODE_ENV === "production") {
 
     // live
     DATABASE_URL:
-      "mongodb://@127.0.0.1:27017/exchangeapidb", //live
+      "mongodb://127.0.0.1:27017/exchangeapilivedb", //live
     PORT: PORT,
     FRONT_URL: "https://mudra.exchange",
     ADMIN_URL: "https://controls.mudra.exchange",
@@ -592,7 +592,7 @@ if (process.env.NODE_ENV === "production") {
       },
       bnb: {
         id:"e5ed28cc-d19a-4770-a3e4-b56f3818cb6b",
-        serverURL:"https://bnbcheckapi.mudra.exchange/bnb", // infura 
+        serverURL:"https://bnbcheckapi.mudra.exchange/bnb", // infura
         mode: "test", // infura
         address: "0x0EB31F690937CAD54dC68AE9d076B6b8Ba19f4Ad",
         privateKey: "U2FsdGVkX1+ogyPEP94ySTWAft7WffbHR0PyOaBCPIR8ZtsHJ/9J45RhxgdKw/09K8mVj+/ZvUaASPUYJLRk5NxyPMV0l/eCWO/gyGrssceZH5e7gSZcehDpiKLmE8yB",
@@ -689,7 +689,7 @@ if (process.env.NODE_ENV === "production") {
     secretOrKey: "test",
 
     cryptoSecretKey: "1234567812345678",
- 
+
     // DATABASE_URL: "mongodb://dbUser2:dbPassword123@172.26.205.171:27017/exchangeTestdb2", // Local
     DATABASE_URL: "mongodb://localhost:27017/exchangeapilocaldb", // Local
     // DATABASE_URL: "mongodb://dbUser:dbPassword123@127.0.0.1:27000/exchangeLocaldb", // Test linode server
@@ -701,8 +701,8 @@ if (process.env.NODE_ENV === "production") {
     ADMIN_URL: "http://localhost:3001/admin",
     SERVER_URL: `${API_URL}:${PORT}`,
     // SERVER_URL: "https://producationapi.mudra.exchange",
-    IMAGE_URL: "https://producationapi.mudra.exchange", 
-    // IMAGE_URL: `${API_URL}:${PORT}`, 
+    IMAGE_URL: "https://producationapi.mudra.exchange",
+    // IMAGE_URL: `${API_URL}:${PORT}`,
     RECAPTCHA_SECRET_KEY:"6LebygErAAAAABZ0yDRPXfqPLSbdxnty16h6zAGQ",
     // RECAPTCHA_SECRET_KEY: "6LfwpSkhAAAAAHtt8zDAkdI4GoKTKoQ3uSrzDukK",
     //,6Lf-oQAaAAAAABqwBZFTvAk0BKkjZUL9gDZdtEbZ
